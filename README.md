@@ -1,11 +1,11 @@
 # Garage_Door_PI
 Garage Door web application front end for Raspberry PI
 
-Requires a web server application and with php installed.
+Requires a web server application and with PHP installed.
 
 Edit server.php to configure login information and map the pins to your Raspberry PI.
 
-Example Lighttpd /w pHp setup:
+Lighttpd with PHP installation for Raspbian:
 1. sudo apt-get update
 2. sudo apt-get -y install lighttpd
 3. sudo apt-get -y install php5-common php5-cgi php5
