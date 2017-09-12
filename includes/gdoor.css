@@ -1,0 +1,52 @@
+/*! GDoor CSS | (c) 2017 Patrick Paduchowski */
+@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
+	.ui-footer, .ui-header {
+		display: none;
+	}
+}
+.login-err {
+	color: #ffffff;
+	text-shadow: none;
+	background-color: #aa0000;
+}
+.login-bar {
+	color: #ffffff;
+	text-shadow: none;
+	background-color: #4286f4;
+}
+#double-door h3 a {
+	color: #ffffff;
+	text-shadow: none;
+	background-color: #4286f4;
+}
+#single-door h3 a {
+	color: #ffffff;
+	text-shadow: none;
+	background-color: #27ad24;
+}
+#both-doors	h3 a {
+	color: #ffffff;
+	text-shadow: none;
+	background-color: #555555;
+	background: -webkit-linear-gradient(#4286f4, #27ad24);
+	background: -o-linear-gradient(#4286f4, #27ad24);
+	background: -moz-linear-gradient(#4286f4, #27ad24);
+	background: linear-gradient(to right, #4286f4, #27ad24);
+}
+.ui-checkbox.ui-mini {
+	margin-left: 0;
+	width: 50%;
+}
+.ui-page {
+	max-width: 640px !important;
+	margin: 0 auto !important;
+	position: relative !important;
+}
+input:focus::-webkit-input-placeholder	{color: transparent;}
+input:focus:-moz-placeholder				{color: transparent;}
+input:focus::-moz-placeholder				{color: transparent;}
+input:focus:-ms-input-placeholder			{color: transparent;}
+::-webkit-input-placeholder	{color: #aaaaaa;}
+:-moz-placeholder			{color: #aaaaaa;}
+::-moz-placeholder			{color: #aaaaaa;}
+:-ms-input-placeholder		{color: #aaaaaa;}
