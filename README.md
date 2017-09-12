@@ -1,8 +1,8 @@
 # Garage_Door_PI
 
-Garage Door web application front end for Raspberry PI
+Garage Door web application front-end for Raspberry PI.
 
-Requires a web server application and with PHP installed.
+Requires a web server with PHP installed.
 
 Example Lighttpd with PHP installation for Raspbian:
 1. `sudo apt-get update`
