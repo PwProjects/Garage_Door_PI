@@ -1,4 +1,4 @@
-/*! GDoor JS | (c) 2017 Patrick Paduchowski */
+/*! GDoor JS | (c) 2017 PwProjects */
 $(document).on('pageinit', '#login_page', function() {
 	$('#information').popup({
 		history: false,
