@@ -11,8 +11,9 @@ Example Lighttpd with PHP installation for Raspbian:
 4. `sudo lighty-enable-mod fastcgi-php`
 
 # Installation
-1. Edit `/includes/server.php` to configure user login information and map the pins to your Raspberry PI.
-2. Copy all source files to your web root folder (e.g. /var/www/html).
+1. Wire your Raspberry PI to a relay, and the relay to your garage door opener.
+2. Edit `/includes/server.php` to configure user login information and map the output pins to your Raspberry PI.
+3. Copy all source files to your web root folder (e.g. /var/www/html).
 
 # Usage
 1. Navigate to your domain name (or your Raspberry PI's IP address if local network) from any javascript enabled browser.
