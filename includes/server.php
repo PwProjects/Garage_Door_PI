@@ -77,7 +77,7 @@ function activate_gpio($array) {
 
 function get_door_function_array($button) {
 	$array['status'] = true;
-	$mdd = [6];		//RPI_PIN > Main Door
+	$mdd = [6];	//RPI_PIN > Main Door
 	$mdl = [13];	//RPI_PIN > Main Door Light
 	$sdd = [19];	//RPI_PIN > Side Door
 	$sdl = [26];	//RPI_PIN > Side Door Light
